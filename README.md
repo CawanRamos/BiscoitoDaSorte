@@ -21,5 +21,6 @@ Realizei o desenvolvimento do projeto com as seguintes tecnologias:
 ## 🎨 Layout 
     
 
-    - O layout utilizado para desenvolvimento do projeto foi fornecido pela Rocketseat e você pode acessar pelo link https://encurtador.com.br/jvAGP
+    - O layout utilizado para desenvolvimento do projeto foi fornecido pela Rocketseat 
+    - Você pode acessar pelo link https://encurtador.com.br/jvAGP
 
