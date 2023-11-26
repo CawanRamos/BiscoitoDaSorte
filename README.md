@@ -16,11 +16,10 @@ Realizei o desenvolvimento do projeto com as seguintes tecnologias:
 
     Este projeto tem como intuito gerar uma frase motivacional ao clicar no biscoito
     
-    - Você pode acessar meu projeto finalizado clicando [aqui](https://cawanramos.github.io/BiscoitoDaSorte/?)
+    - Você pode acessar meu projeto finalizado pelo link https://cawanramos.github.io/BiscoitoDaSorte/?
 
 ## 🎨 Layout 
     
 
-    - O layout utilizado para desenvolvimento do projeto foi fornecido pela Rocketseat e você pode acessar aclicando [aqui] (https://www.figma.com/community/file/1182751789348533739)
+    - O layout utilizado para desenvolvimento do projeto foi fornecido pela Rocketseat e você pode acessar pelo link https://encurtador.com.br/jvAGP
 
-# BiscoitoDaSorte
