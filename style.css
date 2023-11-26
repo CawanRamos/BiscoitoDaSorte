@@ -1,0 +1,143 @@
+* {
+	margin: 0;
+	padding: 0;	
+	box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+	display: grid;
+	font-size: 1.6rem;
+    background: linear-gradient(45deg, #190361, #bb00ff);
+	animation: gradient 10s ease infinite;
+    background-size: 200% 200%;
+	place-items: center; /*Centralizei o meu item usando Grid*/
+	height: 100vh;
+}
+
+/*Primeira Tela*/
+
+.screen1 {
+	width: 42.9rem;
+	height: 42.4rem;
+	background: white;
+	padding: 4.8rem 6.4rem 6.4rem;
+	box-shadow: 0 2rem 5rem 0 rgba(0, 0, 0, 0.80);
+	margin-top: -30px;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	color: #34355B;
+	text-align: center;
+	font-size: 2.4rem;
+	font-weight: 700;
+}
+
+p {
+	font-family: 'DM Sans', sans-serif;
+	color: #34355B;
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: 400;
+	margin: 1.4rem 0 2.6rem ;
+}
+
+  
+.imagem-tremendo:hover {
+	animation: shake 0.3s infinite linear;
+	cursor: pointer;
+}
+
+#btnGerarFrase{
+	background: none;
+	border: none;
+}
+
+/*Segunda Tela*/
+
+.screen2 {
+	min-height: 3rem;
+	width: 42.8rem;
+	background: white;
+	padding: 4.8rem 6.4rem 6.4rem;
+	box-shadow: 0 2rem 5rem 0 rgba(0, 0, 0, 0.80);
+	margin-top: -30px;
+}
+
+.mensagem {
+	font-family: 'Dancing Script', cursive;
+	color: #000;
+	font-size: 24px;
+	font-weight: 400;
+	background: #E4EDF1;
+	box-shadow: 2px 2px 2px 0px rgba(85, 85, 85, 0.50);
+
+	animation: ampliacaoDaMensagem 1.5s both;
+}
+
+.tentarNovamente {
+	border-radius: .4rem;
+	background: #FF9500;
+	display: flex;
+	padding: 1.6rem;
+	align-items: flex-start;
+	gap: 1rem;
+	max-width: 18rem;
+	margin: 6rem auto 0;
+
+	color: #FFF;
+	text-align: center;
+	font-family: DM Sans;
+	font-size: 1.5rem;
+	font-weight: 700;
+	border: none;
+}
+
+.tentarNovamente:hover {
+	cursor: pointer;
+	background: #fdaf42;
+}
+
+
+
+
+
+/*Ocutação das Telas*/
+
+.hide {
+	display: none;
+}
+
+/*Animações*/
+
+@keyframes shake {
+	0% { transform: translate(0, 0); }
+	25% { transform: translate(-5px, -5px); }
+	50% { transform: translate(5px, 5px); }
+	75% { transform: translate(-5px, 5px); }
+	100% { transform: translate(5px, -5px); }
+  }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes ampliacaoDaMensagem {
+	0% {
+	  transform: scale(.4) translateY(200px) ; /*Tamanho .4, e iniciando 200px a baixo do seu eixo*/
+	}100% {
+	  transform: scale(1) translateY(0); /*Voltando ao tamanho normal e para o seu eixo*/
+	}
+}
